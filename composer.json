@@ -21,7 +21,8 @@
         "symfony/web-server-bundle": "^4.0",
         "doctrine/migrations": "^1.6",
         "symfony/orm-pack": "^1.0",
-        "symfony/maker-bundle": "^1.0"
+        "symfony/maker-bundle": "^1.0",
+        "symfony/dotenv": "^4.0"
     },
     "license": "MIT",
     "authors": [
@@ -47,6 +48,5 @@
         }
     },
     "require-dev": {
-        "symfony/dotenv": "^4.0"
     }
 }
