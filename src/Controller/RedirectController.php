@@ -183,4 +183,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://goo.gl/forms/MGFjnPfvDdgSHd793');
     }
+
+    /**
+     * @Route("/unconference", name="unconference")
+     */
+    public function unconference(Request $request)
+    {
+        return $this->redirect('https://goo.gl/forms/JqiM7coNf2Tto0U22');
+    }
 }
