@@ -191,11 +191,20 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://goo.gl/forms/JqiM7coNf2Tto0U22');
     }
+    
     /**
      * @Route("/elections", name="elections")
      */
     public function elections(Request $request)
     {
         return $this->redirect('https://goo.gl/forms/ftCjTYLvtQjmis1C3');
+    }
+
+    /**
+     * @Route("/unconference", name="unconference")
+     */
+    public function unconference(Request $request)
+    {
+        return $this->redirect('http://acm-ucr.github.io/unconference/');
     }
 }
