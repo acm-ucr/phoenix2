@@ -207,4 +207,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('http://acm-ucr.github.io/unconference/');
     }
+
+    /**
+     * @Route("/0to60", name="0to60")
+     */
+    public function 0to60(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/presentation/d/14EQolzEZvSFuo89-bTeAR432DVJuyBAGk2bj0rdHcM0/edit?usp=sharing');
+    }
 }
