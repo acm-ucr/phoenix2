@@ -209,9 +209,9 @@ class RedirectController extends Controller
     }
 
     /**
-     * @Route("/0to60", name="0to60")
+     * @Route("/zeroto60", name="zeroto60")
      */
-    public function 0to60(Request $request)
+    public function zeroto60(Request $request)
     {
         return $this->redirect('https://docs.google.com/presentation/d/14EQolzEZvSFuo89-bTeAR432DVJuyBAGk2bj0rdHcM0/edit?usp=sharing');
     }
