@@ -223,4 +223,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://goo.gl/forms/J4CZwsDDhvtqgehq1');
     }
+
+    /**
+     * @Route("/facultyfeedback", name="facultyfeedback")
+     */
+    public function facultyfeedback(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLSdL6r4ffAMs07GS5xe3b5oRpl9K0a1e6-4EwbcWy8eRGZxmnA/viewform');
+    }
 }
