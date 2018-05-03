@@ -215,4 +215,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/presentation/d/14EQolzEZvSFuo89-bTeAR432DVJuyBAGk2bj0rdHcM0/edit?usp=sharing');
     }
+
+    /**
+     * @Route("/ucrpc", name="ucrpc")
+     */
+    public function ucrpc(Request $request)
+    {
+        return $this->redirect('https://goo.gl/forms/J4CZwsDDhvtqgehq1');
+    }
 }
