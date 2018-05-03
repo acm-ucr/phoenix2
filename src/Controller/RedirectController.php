@@ -231,4 +231,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLSdL6r4ffAMs07GS5xe3b5oRpl9K0a1e6-4EwbcWy8eRGZxmnA/viewform');
     }
+
+    /**
+     * @Route("/lasertag", name="lasertag")
+     */
+    public function lasertag(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLScJiEn4vTQBo-yNX3eEDYw2F9tUBV8fLzq-qpUFa7K0YSQBZg/viewform');
+    }
 }
