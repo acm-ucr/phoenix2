@@ -239,4 +239,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLScJiEn4vTQBo-yNX3eEDYw2F9tUBV8fLzq-qpUFa7K0YSQBZg/viewform');
     }
+
+    /**
+     * @Route("/ios", name="ios")
+     */
+    public function ios(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/presentation/d/1Dqf5kK0nBDb7FMFklGworsq1JJOtrtZG5qE5boutJQ4/edit?usp=sharing');
+    }
 }
