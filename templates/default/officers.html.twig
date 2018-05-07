@@ -5,101 +5,101 @@
 {% endblock %}
 
 {% block head %}
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="{{ asset('js/index/ie/html5shiv.js') }}"></script><![endif]-->
 {% endblock %}
 
 {% block stylesheets %}
-	<link rel="stylesheet" href="{{ asset('css/index/main.css') }}" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="{{ asset('css/index/ie9.css') }}" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="{{ asset('css/index/ie8.css') }}" /><![endif]-->
+  <link rel="stylesheet" href="{{ asset('css/index/main.css') }}" />
+  <!--[if lte IE 9]><link rel="stylesheet" href="{{ asset('css/index/ie9.css') }}" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="{{ asset('css/index/ie8.css') }}" /><![endif]-->
     <link rel="stylesheet" href="{{ asset('css/index/about.css') }}" />
 {% endblock %}
 
 {% block javascripts %}
     <!-- Scripts -->
-	<script src="{{ asset('js/index/skel.min.js') }}"></script>
-	<script src="{{ asset('js/index/util.js') }}"></script>
-	<!--[if lte IE 8]><script src="{{ asset('js/index/ie/respond.min.js') }}"></script><![endif]-->
-	<script src="{{ asset('js/index/main.js') }}"></script>
+  <script src="{{ asset('js/index/skel.min.js') }}"></script>
+  <script src="{{ asset('js/index/util.js') }}"></script>
+  <!--[if lte IE 8]><script src="{{ asset('js/index/ie/respond.min.js') }}"></script><![endif]-->
+  <script src="{{ asset('js/index/main.js') }}"></script>
 {% endblock %}
 
 {% block body %}
 <body class="single">
-	<!-- Wrapper -->
-	<div id="wrapper">
+  <!-- Wrapper -->
+  <div id="wrapper">
         {% include 'components/header.html.twig' %}
         {% include 'components/menu.html.twig' %}
 
-		<!-- Main -->
-		<div id="main">
-			<!-- Post -->
-			<article class="post">
+    <!-- Main -->
+    <div id="main">
+      <!-- Post -->
+      <article class="post">
                 <h1 class="text-center"> ACM at UCR Board 2017 - 2018 </h1>
                 <div class="profiles">
                     <div class="board-member">
-                        <img class="profile-photo" src="{{ asset('img/board/john.jpg') }}" />
-                        <h3> John Pham <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/johnpham97/"></a></span></h2>
-                        <span class="title"> President </h3>
-                        <br />
-                        <a class="email" href="mailto:john@acmucr.org"> john@acmucr.org </a>
-                    </div>
-                    <div class="board-member">
-                        <img class="profile-photo" src="{{ asset('img/board/patrick.jpg') }}" />
-                        <h3> Patrick Le <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/patrick-le-b9820a101/"></a></span></h2>
-                        <span class="title"> Vice President </h3>
-                        <br />
-                        <a class="email" href="mailto:patrick@acmucr.org"> patrick@acmucr.org </a>
-                    </div>
-                    <div class="board-member">
                         <img class="profile-photo" src="{{ asset('img/board/aaroh.jpg') }}" />
-                        <h3> Aaroh Mankad <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/aarohmankad/"></a></span></h3>
-                        <span class="title"> Secretary  </h3>
+                        <h3> Aaroh Mankad <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/aarohmankad/"></a></span></h2>
+                        <span class="title"> President </h3>
                         <br />
                         <a class="email" href="mailto:aaroh@acmucr.org"> aaroh@acmucr.org </a>
                     </div>
                     <div class="board-member">
-                        <img class="profile-photo" src="{{ asset('img/board/sid.jpg') }}" />
-                        <h3> Sid Sharma <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/siddhanth-sharma-920542126/"></a></span></h3>
-                        <span class="title"> Treasurer </h3>
-                        <br />
-                        <a class="email" href="mailto:sid@acmucr.org"> sid@acmucr.org </a>
-                    </div>
-                    <div class="board-member">
-                        <img class="profile-photo" src="{{ asset('img/board/neal.jpg') }}" />
-                        <h3> Neal Goyal <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/neal-goyal/"></a></span></h3>
-                        <span class="title"> Outreach Chair </h3>
-                        <br />
-                        <a class="email" href="mailto:neal@acmucr.org"> neal@acmucr.org </a>
-                    </div>
-                    <div class="board-member">
-                        <img class="profile-photo" src="{{ asset('img/board/maaz.jpg') }}" />
-                        <h3> Maaz Mohamedy <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/maaz-mohamedy-a2a5aa11a/"></a></span></h3>
-                        <span class="title"> Marketing Chair </h3>
-                        <br />
-                        <a class="email" href="mailto:maaz@acmucr.org"> maaz@acmucr.org </a>
-                    </div>
-                    <div class="board-member">
                         <img class="profile-photo" src="{{ asset('img/board/daniel.jpg') }}" />
-                        <h3> Daniel Stinson-Diess <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/daniel-stinson-diess-55155b124/"></a></span></h3>
-                        <span class="title"> Fundraising Chair </h3>
+                        <h3> Daniel Stinson-Diess <span><a class="fa fa-linkedin-square" href="hhttps://www.linkedin.com/in/daniel-stinson-diess/"></a></span></h2>
+                        <span class="title"> Vice President </h3>
                         <br />
                         <a class="email" href="mailto:daniel@acmucr.org"> daniel@acmucr.org </a>
                     </div>
                     <div class="board-member">
-                        <img class="profile-photo" src="{{ asset('img/board/katie.jpg') }}" />
-                        <h3> Katie Fukuda <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/katie-fukuda/"></a></span></h3>
+                        <img class="profile-photo" src="{{ asset('img/board/janine.jpg') }}" />
+                        <h3> Janine Huang <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/janine-huang-13269314a/"></a></span></h3>
+                        <span class="title"> Secretary  </h3>
+                        <br />
+                        <a class="email" href="mailto:janine@acmucr.org"> janine@acmucr.org </a>
+                    </div>
+                    <div class="board-member">
+                        <img class="profile-photo" src="{{ asset('img/board/andrew.jpg') }}" />
+                        <h3> Andrew To <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/andrew-to/"></a></span></h3>
+                        <span class="title"> Treasurer </h3>
+                        <br />
+                        <a class="email" href="mailto:andrew@acmucr.org"> andrew@acmucr.org </a>
+                    </div>
+                    <div class="board-member">
+                        <img class="profile-photo" src="{{ asset('img/board/tim.jpg') }}" />
+                        <h3> Timothy Koo <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/timothykool/"></a></span></h3>
+                        <span class="title"> Outreach Chair </h3>
+                        <br />
+                        <a class="email" href="mailto:tim@acmucr.org"> tim@acmucr.org </a>
+                    </div>
+                    <div class="board-member">
+                        <img class="profile-photo" src="{{ asset('img/board/cam.jpg') }}" />
+                        <h3> Cameron Morin <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/cameron-morin-213a35157/"></a></span></h3>
+                        <span class="title"> Marketing Chair </h3>
+                        <br />
+                        <a class="email" href="mailto:cam@acmucr.org"> cam@acmucr.org </a>
+                    </div>
+                    <div class="board-member">
+                        <img class="profile-photo" src="{{ asset('img/board/harley.jpg') }}" />
+                        <h3> Harley Siezar <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/harley-siezar/"></a></span></h3>
                         <span class="title"> Membership Chair </h3>
                         <br />
-                        <a class="email" href="mailto:katie@acmucr.org"> katie@acmucr.org </a>
+                        <a class="email" href="mailto:harley@acmucr.org"> harley@acmucr.org </a>
                     </div>
                     <div class="board-member">
                         <img class="profile-photo" src="{{ asset('img/board/henry.jpg') }}" />
-                        <h3> Henry Doan <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/henry-doan-6b523165/"></a></span></h3>
+                        <h3> Patrick Tumbucon <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/patricktumbucon/"></a></span></h3>
                         <span class="title"> Professional Development Chair </h3>
                         <br />
-                        <a class="email" href="mailto:henrydoan@acmucr.org"> henrydoan@acmucr.org </a>
+                        <a class="email" href="mailto:patrick@acmucr.org"> patrick@acmucr.org </a>
+                    </div>
+                    <div class="board-member">
+                        <img class="profile-photo" src="{{ asset('img/board/will.jpg') }}" />
+                        <h3> Will Shiao <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/will-shiao/"></a></span></h3>
+                        <span class="title"> Project Manager</h3>
+                        <br />
+                        <a class="email" href="mailto:will@acmucr.org"> will@acmucr.org </a>
                     </div>
                     <div class="board-member">
                         <img class="profile-photo" src="{{ asset('img/board/zach.jpg') }}" />
@@ -115,13 +115,7 @@
                         <br />
                         <a class="email" href="mailto:briancrites@acmucr.org"> briancrites@acmucr.org </a>
                     </div>
-                    <div class="board-member">
-                        <img class="profile-photo" src="{{ asset('img/board/ajay.jpg') }}" />
-                        <h3> Ajay Raj <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/ajayjonathanraj/"></a></span></h3>
-                        <span class="title"> Project Manager</h3>
-                        <br />
-                        <a class="email" href="mailto:ajay@cs.ucr.edu"> ajay@acmucr.org </a>
-                    </div>
+
                     <div class="board-member">
                         <img class="profile-photo" src="{{ asset('img/board/zhijia.jpg') }}" />
                         <h3> Zhijia Zhao, PhD <span><a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/zhijia-zhao-7144b129/"></a></span></h3>
@@ -130,10 +124,10 @@
                         <a class="email" href="mailto:zhijia@cs.ucr.edu"> zhijia@cs.ucr.edu </a>
                     </div>
                 </div>
-			</article>
-		</div>
+      </article>
+    </div>
         {% include 'components/footer.html.twig' %}
-	</div>
+  </div>
 </div>
 {% endblock body %}
 
