@@ -3457,3 +3457,7 @@ body.is-menu-visible #menu {
     }
 
 }
+
+.post img {
+    width: 30%;
+}

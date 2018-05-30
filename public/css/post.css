@@ -20,3 +20,7 @@ select {
 .edit_list {
     list-style: none;
 }
+
+.post img {
+    width: 30%;
+}   
