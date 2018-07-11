@@ -247,4 +247,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/presentation/d/1Dqf5kK0nBDb7FMFklGworsq1JJOtrtZG5qE5boutJQ4/edit?usp=sharing');
     }
+
+    /**
+     * @Route("/welcome", name="welcome")
+     */
+    public function welcome(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLSdSJvJ_YSDDORcZ_GiLKgGGBvJciSRuB02sysetvP7-02umQA/viewform');
+    }
 }
