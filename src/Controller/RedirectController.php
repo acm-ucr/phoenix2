@@ -255,4 +255,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLSdSJvJ_YSDDORcZ_GiLKgGGBvJciSRuB02sysetvP7-02umQA/viewform');
     }
+
+    /**
+     * @Route("/pitch", name="pitch")
+     */
+    public function pitch(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/presentation/d/1EBpEa3LgHSaQ902y47o4xUqRr7xluA8-rTtF3U-jcUA/edit?usp=sharing');
+    }
 }
