@@ -37,7 +37,7 @@ class RedirectController extends Controller
      */
     public function mentor(Request $request)
     {
-        return $this->redirect('https://goo.gl/forms/rv1TcYbiVntUPOBu2');
+        return $this->redirect('https://goo.gl/forms/JyOphedikIgyCAK83');
     }
 
     /**
@@ -45,7 +45,7 @@ class RedirectController extends Controller
      */
     public function mentee(Request $request)
     {
-        return $this->redirect('https://goo.gl/forms/WOdoWhl4O8VBos282');
+        return $this->redirect('https://docs.google.com/forms/d/16CqMXC_aMVm68k8SDfHJGH78ySz6cU6fsoR7DvA7gWg/');
     }
 
     /**
