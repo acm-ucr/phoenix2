@@ -25,14 +25,6 @@ class RedirectController extends Controller
     }
 
     /**
-     * @Route("/icpcbootcamp", name="icpcbootcamp")
-     */
-    public function icpcbootcamp(Request $request)
-    {
-        return $this->redirect('https://goo.gl/forms/ur5YQnChDKNAVvps2');
-    }
-
-    /**
      * @Route("/mentor", name="mentor")
      */
     public function mentor(Request $request)
@@ -46,14 +38,6 @@ class RedirectController extends Controller
     public function mentee(Request $request)
     {
         return $this->redirect('https://docs.google.com/forms/d/16CqMXC_aMVm68k8SDfHJGH78ySz6cU6fsoR7DvA7gWg/');
-    }
-
-    /**
-     * @Route("/incubator", name="incubator")
-     */
-    public function incubator(Request $request)
-    {
-        return $this->redirect('https://docs.google.com/document/d/1xKG3rjqUFuj_WnjKpoqQHeQP3hquP8xYX1rIx9yucbM/edit?usp=sharing');
     }
 
     /**
@@ -85,23 +69,7 @@ class RedirectController extends Controller
      */
     public function checkin(Request $request)
     {
-        return $this->redirect('https://goo.gl/forms/TCY0AKDOvJuSNGYh1');
-    }
-
-    /**
-     * @Route("/hourofcode", name="hourofcode")
-     */
-    public function hourofcode(Request $request)
-    {
-        return $this->redirect('https://acm-ucr.github.io/hour-of-code/');
-    }
-
-    /**
-     * @Route("/python", name="python")
-     */
-    public function python(Request $request)
-    {
-        return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLSccB64QiKyMMnD2TBIEE9N4Wiqre1LBiTf8dDV53ccBk_kgSw/viewform');
+        return $this->redirect('https://goo.gl/forms/wVGfxCoJsNYOKpN72');
     }
 
     /**
@@ -145,22 +113,6 @@ class RedirectController extends Controller
     }
 
     /**
-     * @Route("/raspberry", name="raspberry")
-     */
-    public function raspberry(Request $request)
-    {
-        return $this->redirect('http://bit.ly/2ACt7jA');
-    }
-
-    /**
-     * @Route("/gm5", name="gm5")
-     */
-    public function gm5(Request $request)
-    {
-        return $this->redirect('https://docs.google.com/presentation/d/18kyNzk_PTiiUX-lLDvtKoXpJ2b-2VK4e-G5YzFcm0lQ/edit?usp=sharing');
-    }
-
-    /**
      * @Route("/peopleofacm", name="peopleofacm")
      */
     public function peopleofacm(Request $request)
@@ -174,14 +126,6 @@ class RedirectController extends Controller
     public function msg(Request $request)
     {
         return $this->redirect('https://m.me/join/AbZhz8-NbCaxhCyU');
-    }
-
-    /**
-     * @Route("/dodgeball", name="dodgeball")
-     */
-    public function dodgeball(Request $request)
-    {
-        return $this->redirect('https://goo.gl/forms/MGFjnPfvDdgSHd793');
     }
 
     /**
@@ -230,14 +174,6 @@ class RedirectController extends Controller
     public function facultyfeedback(Request $request)
     {
         return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLSdL6r4ffAMs07GS5xe3b5oRpl9K0a1e6-4EwbcWy8eRGZxmnA/viewform');
-    }
-
-    /**
-     * @Route("/lasertag", name="lasertag")
-     */
-    public function lasertag(Request $request)
-    {
-        return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLScJiEn4vTQBo-yNX3eEDYw2F9tUBV8fLzq-qpUFa7K0YSQBZg/viewform');
     }
 
     /**
