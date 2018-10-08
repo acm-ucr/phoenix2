@@ -37,7 +37,7 @@ class RedirectController extends Controller
      */
     public function mentee(Request $request)
     {
-        return $this->redirect('https://goo.gl/forms/XSS6hRaRzLnpkON93');
+        return $this->redirect('https://goo.gl/forms/69F07LR6zMonKSa43');
     }
 
     /**
