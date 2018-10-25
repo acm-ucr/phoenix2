@@ -199,4 +199,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/presentation/d/1EBpEa3LgHSaQ902y47o4xUqRr7xluA8-rTtF3U-jcUA/edit?usp=sharing');
     }
+
+    /**
+     * @Route("/speedmentoring", name="speedmentoring")
+     */
+    public function speedmentoring(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/forms/d/1E3EYsVxxCf727CGPKXpq0hYEoWqx73t35K3p40yrq54/viewform');
+    }
 }
