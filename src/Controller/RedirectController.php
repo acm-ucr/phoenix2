@@ -207,4 +207,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/forms/d/1E3EYsVxxCf727CGPKXpq0hYEoWqx73t35K3p40yrq54/viewform');
     }
+
+    /**
+     * @Route("/badges", name="badges")
+     */
+    public function badges(Request $request)
+    {
+        return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLScq6s0kiG4Wv9b3Jbh76YCGwCQwkGTZ6QDlxiH0vg89KpIgFg/viewform');
+    }
 }
