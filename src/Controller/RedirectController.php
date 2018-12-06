@@ -215,4 +215,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://docs.google.com/forms/d/e/1FAIpQLScq6s0kiG4Wv9b3Jbh76YCGwCQwkGTZ6QDlxiH0vg89KpIgFg/viewform');
     }
+
+    /**
+     * @Route("/designourshirt", name="designourshirt")
+     */
+    public function designourshirt(Request $request)
+    {
+        return $this->redirect('https://goo.gl/forms/kM5EPZs8Ato0MGj43');
+    }
 }
