@@ -223,4 +223,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://goo.gl/forms/kM5EPZs8Ato0MGj43');
     }
+
+    /**
+     * @Route("/leadaworkshop", name="leadaworkshop")
+     */
+    public function leadaworkshop(Request $request)
+    {
+        return $this->redirect('https://goo.gl/forms/qwmOULpAR5QV9qBt2');
+    }
 }
