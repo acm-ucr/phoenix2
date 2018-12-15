@@ -89,14 +89,6 @@ class RedirectController extends Controller
     }
 
     /**
-     * @Route("/slack", name="slack")
-     */
-    public function slack(Request $request)
-    {
-        return $this->redirect('https://join.slack.com/t/acm-ucr/shared_invite/enQtMjc2NTE2MDU1ODEwLThhYzUwYzQ4N2E1NWM0NDY1OTVkNTE1NzM4YjU4YjRjMmJiZDY1YzY2NTBjNmNiYjU0NTQxZDMwY2U4MDc4YmM');
-    }
-
-    /**
      * @Route("/tshirt", name="tshirt")
      */
     public function tshirt(Request $request)
@@ -230,5 +222,13 @@ class RedirectController extends Controller
     public function leadaworkshop(Request $request)
     {
         return $this->redirect('https://goo.gl/forms/qwmOULpAR5QV9qBt2');
+    }
+
+    /**
+     * @Route("/slack", name="slack")
+     */
+    public function slack(Request $request)
+    {
+        return $this->redirect('https://join.slack.com/t/csatucr/shared_invite/enQtNTA0OTY3MjIxMjgyLWQyODFiMjliYmMzYmVmZGFhZmJhOGVkMzU2ODI4MmJiNDkzMDk0MjBiMmI2YTExOWJiYzczMDYwNWUyNzA1ZjA');
     }
 }
