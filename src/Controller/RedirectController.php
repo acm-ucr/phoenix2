@@ -231,4 +231,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://join.slack.com/t/csatucr/shared_invite/enQtNTA0OTY3MjIxMjgyLWQyODFiMjliYmMzYmVmZGFhZmJhOGVkMzU2ODI4MmJiNDkzMDk0MjBiMmI2YTExOWJiYzczMDYwNWUyNzA1ZjA');
     }
+
+    /**
+     * @Route("/lead", name="lead")
+     */
+    public function lead(Request $request)
+    {
+        return $this->redirect('https://goo.gl/forms/KSrW9DBOBq5AVucG2');
+    }
 }
