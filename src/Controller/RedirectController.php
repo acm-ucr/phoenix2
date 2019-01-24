@@ -239,4 +239,12 @@ class RedirectController extends Controller
     {
         return $this->redirect('https://goo.gl/forms/KSrW9DBOBq5AVucG2');
     }
+
+    /**
+     * @Route("/shirts", name="shirts")
+     */
+    public function shirts(Request $request)
+    {
+        return $this->redirect('https://goo.gl/forms/b9sIiOCOQFFgSOMM2');
+    }
 }
